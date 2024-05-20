@@ -30,7 +30,6 @@ jobs:
       - name: Install Node Dependencies
         run: |
             yarn install --frozen-lockfile
-
       #   - name: update version accordingly
       #     run: npm version ${{ inputs.release_type }}
 
